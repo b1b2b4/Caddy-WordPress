@@ -95,4 +95,4 @@ volumes:
   caddylogs:
 networks:
   caddy:
-    external: true
+    name: caddy
